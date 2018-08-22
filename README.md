@@ -1,10 +1,14 @@
+# GMM Background Subtraction
+
+Code to accompany [my post](https://barkeywolf.consulting/posts/background-subtraction/) on using Gaussian Mixture Modelling for the background subtraction computer vision task (the Stauffer-Grimson / Zivkovic way).
+
 Tested on Rust 1.28 `stable-x86_64-apple-darwin`, `rustc 1.28.0 (9634041f0 2018-07-30)`.
 
 
 
 # TODO
 
-- [ ] Fix the bug that somehow increases the time taken by the prediction performance benchmarks to infeasible durations.
+- [ ] Fix the bug that somehow increases runtime of prediction performance benchmarks to infeasible durations while the actual time taken by individual iterations is minimal.
 - [ ] Maybe implement the improved heuristic proposed by Eric Thul
 
 ```
