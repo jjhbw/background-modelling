@@ -28,10 +28,10 @@ First, we need to cut up the mp4 frames into png images. Note that we take the f
 
 ```bash
 ffmpeg \
-	-i ./example_data/traffic/traffic.mp4 \
-    -t 20 \
-	-r 10 \
-	./example_data/traffic/img%4d.png
+  -i ./example_data/traffic/traffic.mp4 \
+  -t 20 \
+  -r 10 \
+  ./example_data/traffic/img%4d.png
 ```
 
 The `-tr` argument sorts the test data by date modified in reverse (so oldest first).
