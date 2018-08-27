@@ -1,5 +1,7 @@
 # GMM Background Subtraction
 
+![example](example.gif)
+
 Code to accompany [my post](https://barkeywolf.consulting/posts/background-subtraction/) on using Gaussian Mixture Modelling for the background subtraction computer vision task (the Stauffer-Grimson / Zivkovic way).
 
 Tested on Rust 1.28 `stable-x86_64-apple-darwin`, `rustc 1.28.0 (9634041f0 2018-07-30)`.
